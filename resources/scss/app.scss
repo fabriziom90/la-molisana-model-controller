@@ -1,0 +1,22 @@
+@import '~bootstrap/scss/bootstrap';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-image: url('../img/fondo-pag-speciali.jpg');
+    background-size: cover;
+}
+
+.active {
+    background-color: rgb(0, 145, 255);
+    font-weight: 700;
+}
